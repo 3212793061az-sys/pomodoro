@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🍅 Pomodoro</h1>
+
+  <input type="text" id="taskInput" placeholder="Nombre de la tarea">
+
+  <div id="timer">25:00</div>
+
+  <div class="controls">
+    <button onclick="start()">Iniciar</button>
+    <button onclick="pause()">Pausar</button>
+    <button onclick="stop()">Detener</button>
+    <button onclick="next()">Siguiente</button>
+  </div>
+
+  <div class="config">
+    <label>Descanso largo:
+      <select id="longBreak">
+        <option value="15">15 min</option>
+        <option value="30">30 min</option>
+      </select>
+    </label>
+  </div>
+
+  <button onclick="toggleHistory()">Ver Historial</button>
+
+  <div id="history" class="hidden"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
