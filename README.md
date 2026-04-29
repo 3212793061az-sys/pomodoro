@@ -2,11 +2,6 @@
 
 Aplicación web de productividad basada en la técnica Pomodoro para gestionar tareas y mejorar la concentración.
 
-🚀 Demo
-
-(Agrega aquí tu link cuando lo subas a producción)
-Ejemplo: http://127.0.0.1:5500/index.html
-
 📌 Características
 ⏱️ Temporizador Pomodoro (25 min trabajo / 5 min descanso)
 🔁 Ciclos automáticos con descanso largo configurable (15 o 30 min)
